@@ -1,0 +1,55 @@
+.mbbpspt_opentitle,.mbbpspt_pop .span_close,.mbbpspt_pop .btn{background:url(sprite2.png) no-repeat;}
+
+.mbbpspt_pop .opencir{background:#f8f8f8;height:1px;font-size:0em;overflow:hidden;}
+.mbbpspt_pop .opencirb{height:1px;font-size:0em;overflow:hidden;}
+.mbbpspt_pop .cir_1{margin:0 4px 0 2px;border-top:1px solid #e3e3e3;}
+.mbbpspt_pop .cir_2{margin:0 3px 0 1px;}
+.mbbpspt_pop .cir_3{margin:0 2px 0 0;}
+.mbbpspt_pop .cir_4{margin:0 1px 0 0;border-right:1px solid #9f9f9f;}
+.mbbpspt_pop .cirb_1{margin:0 0 0 1px;background:#fff;border-right:3px solid #9f9f9f;width:446px;_width:448px;}
+.mbbpspt_pop .cirb_2{margin:0 1px 0 2px;background:#fff;border-right:3px solid #9f9f9f;border-left:1px solid #e7e7e7;width:443px;_width:445px;}
+.mbbpspt_pop .cirb_3{margin:0 1px 0 3px;background:#9f9f9f;width:445px;_width:447px;}
+.mbbpspt_pop .cirb_4{margin:0 2px 0 4px;background:#9f9f9f;width:443px;_width:445px;}
+
+.mbbpspt_opentitle{height:28px;line-height:25px;font-weight:bold;font-size:14px;padding-left:15px;border-right:2px solid #9f9f9f;border-left:1px solid #e3e3e3;background-position:0 -124px;background-repeat:repeat-x;}
+.mbbpspt_pop .span_close{position:absolute;top:10px;right:12px;width:16px;height:16px;background-position:3px -172px;cursor:hand;cursor:pointer;text-indent:-999em;overflow:hidden;}
+.mbbpspt_pop .span_close:hover{background-position:-47px -172px;}
+.mbbpspt_opencont{position:relative;background:#fff;border-right:2px solid #9f9f9f;border-left:1px solid #e3e3e3;padding:15px 15px 25px;}
+.pspt_back_msg {display:none;padding:5px;border:1px solid #ed414d;background-color:#ffe1e3;border-radius:3px;margin-bottom:5px;}
+
+.mbbpspt_pop .p_item{overflow:hidden;padding:6px 0;zoom:1;}
+.mbbpspt_pop .itemtitle{float:left;width:100px;line-height:23px;text-align:right;margin:0 5px 0 0;_display:inline;}
+.mbbpspt_pop .txt{border:1px solid #ccc;width:165px;padding:3px 2px;vertical-align:middle;margin:0 5px 0 0;}
+.mbbpspt_pop .txt_1{width:60px;}
+.mbbpspt_pop img{vertical-align:middle;}
+.mbbpspt_pop .p_btn{padding:10px 0 0 105px;}
+.mbbpspt_pop .btn{width:85px;height:25px;line-height:28px/9;*line-height:25px;text-align:center;color:#fff;border:none;vertical-align:middle;background-position:0 -95px;margin:0 10px 0 0;cursor:pointer;}
+.mbbpspt_pop .btn_a2{width:147px;background-position:0 -70px;}
+.mbbpspt_opencont .p_btn a{color:#666;margin-right:9px;}
+.psptopencont .p_btn a:hover{color:#c00;text-decoration:underline;}
+.mbbpspt_opencont em{color:#999;font-style:normal;}
+.mbbpspt_opencont em.red{color:#c00;}
+.mbbpspt_opencont em.em_br{display:block;padding:8px 0 0 105px;width:285px;}
+.mbbpspt_opencont span.pspt_msg {color:#c00;}
+
+.mbbpspt_opencont .p_btn a.a_readitem{color:#8E0B0B;text-decoration:underline;}
+.mbbpspt_opencont .p_btn a.a_readitem:hover{text-decoration:none;}
+#h3_open_reglogin{height:27px;font-size:14px;font-weight:normal;border-bottom:1px solid #b9b9b9;}
+#h3_open_reglogin span{position:relative;top:1px; float:left;height:27px;line-height:27px;width:83px;margin:0 0 0 10px;display:block;*display:inline-block;zoom:1;background:url(sprite2.png) no-repeat -90px 0px;text-align:center;cursor:hand;cursor:pointer;}
+#h3_open_reglogin span.now{background-position:0 0;font-weight:bold;}
+#open_loginbox,#open_regbox{padding:10px 0 0;}
+#open_loginbox.now,#open_regbox.now{display:block;}
+
+.open_otherlogin{border-top:1px solid #e6e6e6;margin:15px 0 0;overflow:hidden;}
+.h4_otherlogin{font-weight:normal;color:#999;font-size:12px;padding:15px 20px 10px;}
+.a_login_zfb,.a_login_139,.a_login_weibo{background:url(sprite2.png) no-repeat;float:left;margin-left:20px;line-height:23px;text-align:left;text-indent:-9999px;}
+.a_login_zfb{width:225px;height:50px;background-position:0 -208px;}
+.a_login_139{background-position:-235px -208px;margin:0 0 2px 10px;width:126px;height:24px;}
+.a_login_weibo{background-position:-235px -234px;margin-left:10px;width:126px;height:24px;}
+
+.mbbpspt_pop .c_r ,.mbbpspt_pop a.c_r{color:#ed1c24}
+.mbbpspt_pop .c_b {color:#134792}
+.mbbpspt_pop .c_g {color:#c0c0c0}
+
+#div_consignee dl{height:30px;}
+#div_consignee dl input{height:20px;   }

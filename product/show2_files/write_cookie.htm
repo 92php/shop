@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="P3P" content="CP=&quot;CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR&quot;">
+<title>Insert title here</title>
+<script type="text/javascript" src="write_cookie_data/util.js"></script>
+</head>
+<body>
+<div id="mediavLS"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" id="BDBridgeSwf" width="2" align="middle" height="2"><param name="menu" value="false"><param name="wmode" value="transparent"><param name="allowscriptaccess" value="always"><param name="movie" value="./local_storage.swf"><embed menu="false" wmode="transparent" allowscriptaccess="always" src="write_cookie_data/local_storage.swf" name="BDBridgeSwf" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" width="2" align="middle" height="2"></object></div>
+<script type="text/javascript" src="write_cookie_data/local.js"></script>
+<script>
+mediav.storage.onLoadInit = function () {
+	try {
+	var queryString = window.location.href.split("#").pop();
+	var sku = mediav.url.queryToJson(queryString);
+	if (sku.productId == null) return;
+	var current_cltcls = sku.cltcls;
+	delete sku.cltcls;
+	var key = current_cltcls == 236 ? "browsedProduct" : current_cltcls;
+	var products = mediav.storage.get(key) || [];
+	removeExistProduct(products, sku); 
+	products.unshift(sku);
+	mediav.storage.set(key, products.slice(0, 10));
+	if (products.length >= 2) {
+		var cltcls = mediav.cookie.getRaw("cltcls");
+		cltcls = cltcls ? cltcls.split(",") : [];
+		mediav.array.clear(cltcls);
+		if (mediav.array.indexOf(cltcls, current_cltcls) < 0) {
+			cltcls.push(current_cltcls);
+		}
+		mediav.cookie.setRaw("cltcls", cltcls.join(","), {
+			domain : "mediav.com",
+			expires : new Date("2099/01/01"),
+			path : "/"
+		});
+	}
+	} catch (e) {
+		
+	}
+}
+
+function removeExistProduct (source, match) {
+    var len = source.length;
+    while (len--) {
+        if (len in source && source[len].productId === match.productId) {
+            source.splice(len, 1);
+        }
+    }
+    return source;
+};
+window.onresize = function () {
+	mediav.storage.onLoadInit();
+}
+</script>
+
+</body></html>

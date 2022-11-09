@@ -1,0 +1,101 @@
+@charset "utf-8";
+.member_container {
+	width: 960px;
+}
+.member div.menu {
+	width: 250px;
+	float: left;
+	background: url(../images/member_dot.gif) repeat-y 249px 0;
+	padding-bottom: 10px;
+}
+
+.member div.menu div.box {
+	width: 163px;
+	float: right;
+}
+
+.member div.menu div.box dl {
+	padding-top: 2px;
+}
+
+.member div.menu div.box dl dt {
+	font-weight: bold;
+	line-height: 22px;
+	border-bottom: 1px solid #eee;
+	margin: 0 1px 5px 0;
+}
+
+.member div.menu div.box dl dd {
+	line-height: 20px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.member div.menu div.box dl dd.current {
+	background: url(../images/bg_member_menu.gif) no-repeat;
+	height: 30px;
+	line-height: 30px;
+}
+
+.member div.menu div.box dl dd.current a {
+	font-weight: bold;
+}
+
+.helpcenter_title {
+	width:960px;
+	height: 70px;
+	border-bottom: 1px solid #000;
+	background: url(../images/title_helpcenter.gif) no-repeat 35px 25px;
+}
+.helpcenter div.menu {
+	width: 195px;
+	background: url(../images/member_dot.gif) repeat-y 194px 0;
+}
+
+.helpcenter div.menu div.box {
+	padding-top: 20px;
+}
+
+.helpcenter div.menu div.box dl dt, .helpcenter div.menu div.box dl dd a:link, .helpcenter div.menu div.box dl dd a:visited {
+	color: #333;
+}
+
+.helpcenter div.menu div.box dl dd.current {
+	background: url(../images/bg_helpcenter_menu.gif) no-repeat;
+	height: 30px;
+	line-height: 30px;
+	padding-right: 20px;
+}
+
+.helpcenter div.menu div.box dl dd.current a, .helpcenter div.menu div.box dl dd a:hover {
+	color: #CA0000;
+	font-weight: normal;
+}
+
+.helpcontent {
+	width: 747px;
+	float: right;
+	padding-top: 10px;
+}
+
+.helpcontent h2.title {
+	font-size: 14px;
+	color: #333;
+	border-bottom: 1px solid #DBDBDB;
+	padding: 0 0 5px 20px;
+	background: url(../images/li_03.gif) no-repeat left 4px;
+}
+
+.helpcontent div.content {
+	padding: 10px 6px 0 6px;
+	color: #333;
+	line-height: 180%;
+}
+
+
+.div_help_left_service{height:110px; margin-top:10px; border-right:#dcdcdc 1px solid}
+.div_help_left_service .h3_contact{height:30px; line-height:30px; background:#F2F5F5}
+.div_help_left_service .p_tel_number{height:40px; line-height:40px; font-weight:700; color:#666;}
+.div_help_left_service .a_gomessage{background:url(../images/sprite_header_footer.png) no-repeat -348px -232px;display:block;width:128px;height:35px;font-size:14px;font-weight:bold;color:#fff;text-indent:55px;line-height:33px;}
+a.a_gomessage:hover{color:#fff}
+

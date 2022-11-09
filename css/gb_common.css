@@ -1,0 +1,136 @@
+@charset "gb2312";
+
+ 
+
+/** 全局定义 */
+body {
+	/*font-family: '微软雅黑', tahoma, verdana, simsun, 'microsoft yahei', 'arial unicode ms', mingliu, arial, helvetica, PMingLiU;*/
+	font-family: tahoma, arial, verdana, geneva, sans-serif;
+	background: #FFF;
+	color: #333;
+	font-size: 12px;
+}
+caption, tbody, tfoot, thead, tr, th, td, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table {
+	margin: 0px;
+	padding: 0px;
+}
+object { display: block; }
+object { vertical-align: top; /* top/text-top/middle/bottom */ }
+ul, ol, li { list-style-type: none; }
+
+/** 标题 */
+h1 { font: bold 28px/1.5 Arial, verdana; }
+h2 { font: bold 24px/1.5 Arial, verdana; }
+h2 a, h2 a:visited { color: #2C6288; text-decoration: none; } 
+h2 a:hover { color: #666; text-decoration: underline; }
+h3 { font: bold 22px Arial, verdana; }
+h3 a, h3 a:visited { text-decoration: none; }
+h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a { color: #333;}
+h4, h5, h6 { font: bold 1.15em/1.5 verdana; } 
+
+/** form表单 */
+form { padding: 0; margin: 0; }
+input, textarea { font-size: 12px; padding: 2px; }
+textarea { overflow: auto; }
+input, button, select, textarea { font-family: tahoma, arial, verdana, geneva, sans-serif }
+select { font-size: 12px; padding: 1px; }
+@media screen and (-webkit-min-device-pixel-ratio:0) { input, button, textarea { padding: 1px; } }
+@media screen and (-webkit-min-device-pixel-ratio:0) { select { padding: 0; } }
+button{
+overflow: visible;
+line-height: 16px;
+*height: 24px;
+*padding: 0 8px;
+*line-height: 20px;
+*margin-bottom: -1px;
+}
+
+/** just for ie6 */
+*html button {
+line-height: 17px;
+height: 17px;
+margin-bottom: -1px;
+}
+
+/** link */
+a { color: #333; text-decoration: none; }
+a:link { color: #333; text-decoration: none; }
+a:visited { color: #333; text-decoration: none; }
+a:hover { color: #c00; text-decoration: underline; }
+a:active { color: #c00; text-decoration: underline; }
+a img { border: none; outline: none; }
+
+/** clearfix */
+.clearfix:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+* html>body .clearfix { display: inline-block; width: 100%; }
+* html .clearfix { height: 1%; /* End hide from IE-mac */ }
+/* ie7 hack*/
+*+html .clearfix { min-height: 1%; }
+/*]]>*/
+.clearfix { zoom: 1; /* IE */ }
+.clear {clear:both;height:0;overflow:hidden;}
+
+/** 辅助元素 */
+.ajax_state { display: none; }
+.hand { cursor: pointer; }
+.strong { font-weight: 600;  }
+.underline { text-decoration: underline; }
+a.underline:link,a.underline:visited {text-decoration: underline; }
+a.underline:hover,a.underline:active {text-decoration: underline; }
+.hidden { display: none; overflow: hidden; }
+.price { font-family: "Tahoma", "Courier New"; font-weight: 800; color: #c00; }
+.captcha { cursor: pointer; }
+input[type="text"].captcha { bblr: expression(this.onFocus=this.blur()); ime-mode: disabled; }
+
+/** 色彩元素 */
+.red { color: #c00; }
+a.red:link,a.red:visited { text-decoration: none; color: #c00; }
+a.red:hover,a.red:active { text-decoration: underline; color: #c00; }
+.blue { color: blue; }
+a.blue:link,a.blue:visited { text-decoration: none;color: blue; }
+a.blue:hover,a.blue:active { text-decoration: underline;color: blue; }
+.gray { color: #999; }
+a.gray:link,a.gray:visited { text-decoration: none; color: #999; }
+a.gray:hover,a.gray:active { text-decoration: underline; color: #999; }
+.green { color: green; }
+a.green:link,a.green:visited { text-decoration: none; color: green; }
+a.green:hover,a.green:active { text-decoration: underline; color: green; }
+.orange { color: #f60; }
+a.orange:link,a.orange:visited { text-decoration: none; color: #f60; }
+a.orange:hover,a.orange:active { text-decoration: underline; color: #f60; }
+.black { color: #333; }
+a.black:link,a.black:visited { text-decoration: none; color: #333; }
+a.black:hover,a.black:active { text-decoration: underline; color: #333; }
+.white { color: #333; }
+a.white:link,a.white:visited { text-decoration: none; color: #333; }
+a.white:hover,a.white:active { text-decoration: underline; color: #333; }
+
+/** 字体大小元素 */
+.f10 { font-size: 10px; }
+.f11 { font-size: 11px; font-family: PMingLiU; }
+.f12 { font-size: 12px; }
+.f14 { font-size: 14px; }
+.f16 { font-size: 16px; }
+.f18 { font-size: 18px; }
+.f20 { font-size: 20px; }
+.f22 { font-size: 22px; }
+.f24 { font-size: 24px; }
+.f26 { font-size: 26px; }
+.f28 { font-size: 28px; }
+.f30 { font-size: 30px; }
+.f40 { font-size: 40px; }
+.fb { font-weight: 600; }
+
+/** 位子元素 */
+.ftl { float: left; }
+.ftr { float: right; }
+.tal { text-align: left; }
+.tac { text-align: center; }
+.tar { text-align: right; }
+
+/** 小按钮 */
+.btn { background: url('../images/bg/bg_btn.png') no-repeat; border: none; display: inline; vertical-align: middle; line-height: 100%; text-align: left; font-size: 12px; text-decoration: none; }
+
+/** 操作链接 */
+div.action a { background: url('../images/icon/icon_16.png') no-repeat 10000px 10000px; display: block; background-position: 1px -280px; line-height: 18px; padding-bottom: 2px; padding-left: 21px; text-align: left; }
+div.action a.back { background-position: 1px -300px; }

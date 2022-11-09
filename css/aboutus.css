@@ -1,0 +1,333 @@
+@charset "gb2312";
+/*start as_banner*/
+.as_banner{
+margin-bottom:20px;
+}
+/*end as_banner*/
+/*start about_main*/
+.about_main{
+font-family:"宋体", Arial;
+font-size:14px;
+width: 960px;
+margin:10px 0 36px;
+overflow:hidden;
+zoom:1;}
+/*start left_box*/
+.about_main .left_box{
+width: 180px;
+float: left;
+}
+.about_menu{
+width:178px;
+border-left:1px solid #e7e7e7;
+border-right:1px solid #e7e7e7;
+border-bottom:1px solid #e7e7e7;
+}
+.h2_about_menu_title{
+overflow:hidden;
+height:52px;
+width:180px;
+background:url(../images/bg_about_menu.gif) 0px 0px no-repeat;
+text-indent:-999em;
+}
+.ul_about_menu{
+width:176px;
+border-left:1px solid #fefefe;
+border-right:1px solid #fefefe;
+border-bottom:1px solid #fefefe;
+padding-bottom:30px;
+background:url(../images/bg_about_menu.gif) center bottom no-repeat;
+}
+.ul_about_menu li ul{
+display:none;
+}
+.ul_about_menu li.now ul{
+display:block;
+}
+.ul_about_menu li a{
+color:#666;
+display:block;
+background:url(../images/bg_about_menu.gif) 0px -252px no-repeat;
+height:36px;
+text-align:center;
+vertical-align:middle;
+line-height:36px;
+}
+.ul_about_menu li a:hover, .ul_about_menu li.now a{
+color:#c00;
+background:url(../images/bg_about_menu.gif) -360px -252px no-repeat;
+}
+.ul_about_menu li.now .ul_sub_about_menu{
+font-size:12px;
+padding-bottom:10px;
+background:url(../images/bg_about_menu.gif) 0px -230px no-repeat;
+}
+.ul_about_menu .ul_sub_about_menu li a{
+color:#666;
+background:none;
+height:24px;
+line-height:24px;
+padding-left:10px;
+background:url(../images/about_us_dotted.gif) 60px 10px no-repeat;
+}
+.ul_about_menu .ul_sub_about_menu li.now a,
+.ul_about_menu .ul_sub_about_menu li a:hover{
+color:#c00;
+}
+/*end left_box*/
+.about_main .right_box{
+float:right;
+width:765px;
+overflow: hidden;
+}
+.h2_rb_about_us{
+line-height:37px;
+font-size:16px;
+vertical-align:middle;
+padding-left:39px;
+background:url(../images/bg_right_box_top.png) no-repeat;
+height:37px;
+width:726px;
+color:#333;
+overflow:hidden;
+}
+.span_gg_tit{float:left; }
+.span_gg_more{float:right;padding-right:20px}
+
+.right_box_cont{
+width:722px;
+padding:10px 20px 20px;
+line-height:1.8em;
+border-left:1px solid #e7e7e7;
+border-right:1px solid #e7e7e7;
+border-bottom:1px solid #e7e7e7;
+position:relative;
+}
+.right_box_cont p{
+padding:10px 0 5px;
+}
+/*start contact_us*/
+.rb_contact_us_cont{
+}
+.em_rb_contact_us{
+font-weight:bold;
+}
+/*end contact_us*/
+/*start jobs*/
+.rb_resume{
+font-size:12px;
+line-height:1.5em;
+color:#333;
+border: #ffd0a8 1px solid;
+position: absolute;
+padding: 10px;
+width: 180px;
+background: #ffffee;
+right: 22px;
+top:10px;
+}
+.rb_mbb_poem{
+padding-left:30px;
+color:#666;
+}
+.career_name{
+font-size:14px;
+font-weight:bold;
+line-height:2;
+padding-top:10px;
+border-bottom:#ccc dashed 1px;
+color:#c00;
+}
+.career_list_box{
+padding-bottom:15px;
+}
+.career_list_box .h3_career_list_title, .h3_terms_quick_navi{
+color:#c00;
+font-size:14px;
+font-weight:bold;
+border-bottom:1px dotted #ccc;
+height:30px;
+line-height:30px;
+}
+.career_list_box .h3_career_list_title a:link, .career_list_box .h3_career_list_title a:visited{
+color:#c00;
+}
+.career_list_box div.career_list{
+padding:10px 0 0 30px;
+}
+.career_list_box div.career_list a:link, .career_list_box div.career_list a:visited{
+text-decoration:underline;
+}
+.career_list_box div.career_list a:hover{
+color:#333;
+}
+.ul_career_list{
+padding-left:30px;
+font-size:12px;
+}
+/*end jobs*/
+/*start news*/
+.about_main .right_box .news_list{
+}
+.about_main .right_box .news_list ul{
+padding-top:10px;
+}
+.about_main .right_box .news_list ul li{
+height: 28px;
+line-height: 28px;
+padding-left: 18px;
+background: url(../images/about_us_dotted.gif) 5px -196px no-repeat;
+border-bottom: 1px dotted #ccc;
+overflow:hidden;
+}
+.about_main .right_box .news_list ul li a{
+font-size:14px;
+color:#757575;
+}
+.about_main .right_box .news_list ul li a:hover{
+color:#c00;
+}
+.about_main .right_box .news_list ul li span{
+float: right;
+font-size: 12px;
+padding-right: 5px;
+}
+
+.aboutus_page{
+font-size:12px;
+line-height:12px;
+color:#333;
+text-align:center;
+margin:20px 0 15px;
+}
+.aboutus_page span{
+margin:0 3px;
+}
+.aboutus_page a{
+padding:4px 7px;
+border:1px solid #e3e3e3;
+margin:0 3px;vertical-align:middle;}
+.aboutus_page a img{vertical-align:top;}
+.aboutus_page a.current{
+color:#c00;
+font-weight:bold;
+}
+.aboutus_page .pre a,.aboutus_page .nxt a{
+padding:4px; }
+
+/*end news*/
+/*start links*/
+.rb_links_cont{
+width: 725px;
+background: #fff;
+margin: 0 auto;
+line-height: 2em;
+font-size:12px;
+text-align:left;
+}
+.rb_links_cont textarea{
+color: #666;
+background: #fff;
+font: 12px tahoma, arial, verdana, geneva, sans-serif;
+border: 1px solid #c4c4c4;
+margin-top:10px;
+resize:vertical;
+width:700px;
+max-width:700px;
+}
+.rb_links_cont span.apply a:link, .links_content span.apply a:visited{
+font-weight: bold;
+color: #FF6501;
+text-decoration: underline;
+}
+.rb_links_cont div.example{
+}
+.rb_links_cont div.example .pic_example strong{
+line-height:26px;
+height:26px;
+}
+.rb_links_cont div.example .pic_example img{
+vertical-align:middle;
+}
+.pic_links, .txt_links, link_desc{
+overflow:hidden;
+zoom:1;
+}
+.h3_links_title, .h3_terms{
+font-size:14px;
+font-weight:bold;
+padding:10px 0 5px 19px;
+background:url(../images/about_us_dotted.gif) 1px -85px no-repeat;
+border-bottom: 1px dotted #e3e3e3;
+}
+.ul_pic_links, .ul_txt_links, .link_desc_cont{
+width:702px;
+padding-left:19px;
+overflow:hidden;
+zoom:1;
+padding-top: 20px;
+}
+.ul_pic_links li{
+float: left;
+width: 140px;
+height: 36px;
+}
+.txt_links, .link_desc{
+padding: 30px 0 0;
+}
+.ul_txt_links li{
+float: left;
+width: 140px;
+height: 30px;
+line-height: 27px;
+}
+.pic_links h2, .txt_links h2{
+font-size: 14px;
+color: #EE7441;
+height: 30px;
+line-height: 30px;
+}
+/*end links*/
+/*start terms*/
+.terms_navi_box{
+padding:10px 0;
+}
+.h3_terms_quick_navi{
+margin-bottom:10px;
+}
+.terms_cont{
+font-size:12px;
+color:#333;
+}
+.terms_sub_box{
+position:relative;
+}
+.terms_cont .a_to_top{
+background:url(../images/top_ico.gif) 0px 10px no-repeat;
+padding:15px 0 15px 31px;
+position:absolute;
+right:20px;
+top:15px;
+font-size:0;
+line-height:0;
+overflow:hidden;
+}
+.ol_terms_of_use{
+width:685px;
+overflow:hidden;
+zoom:1;
+font-size:13px;
+font-weight:bold;
+padding-left:40px;
+line-height:2em;
+}
+.ol_terms_of_use li{
+float:left;
+width:310px;
+list-style:decimal;}
+
+.right_box .newsdetails_a{font-size:14px;color:#333;}
+.right_box .newsdetails_a p{margin:0;padding:0;}
+
+/*end terms*/
+/*end about*/
